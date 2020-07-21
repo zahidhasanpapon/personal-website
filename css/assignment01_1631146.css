@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  padding-top: 35px;
+  text-align: center;
+}
+
+#intro {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+#bd {
+  color: red;
+}
+
+#words {
+  color: blue;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-base {
+  width: 350px;
+  height: 250px;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 22px rgba(0, 0, 0, 0.1);
+}
+
+.card-name {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.card-one {
+  background-color: #7fffd4;
+}
+
+.card-two {
+  background-color: #ffe697;
+}
+
+.card-three {
+  background-color: #b7e0ff;
+}
+
+.content {
+  padding: 15px 35px;
+  font-size: 18px;
+}
+
+#bill {
+  float: right;
+  clear: both;
+}
+
+footer {
+  margin-top: 64px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#footer-title {
+  padding-left: 500px;
+  font-size: small;
+  font-weight: bold;
+}
+
+#footer-paragraph {
+  padding-left: 400px;
+  font-size: small;
+}
+#footer-title2 {
+  padding-left: 100px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.footer-icon {
+  padding-left: 100px;
+}
